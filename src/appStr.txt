@@ -1,0 +1,19 @@
+.src
++---.app
+    +---.employees
+        |--employees.component.ts|.html|.css
+        +---.employee
+            |--employee.component.ts|.html|.css
+        +---.employee-list
+            |--employee-list.component.ts|.html|.css
+        +---.shared
+            |--employee.service.ts
+            |--employee.model.ts
+
+
+    |--app.module.ts (configured firebase connection)
+
++---.enviornments
+    |--enviornment.ts (saved firebase connection details)
+
+|-- index.html (cdn path for fontawesome icons)
